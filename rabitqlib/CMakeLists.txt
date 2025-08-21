@@ -2,10 +2,11 @@
 
 # Header-only library as INTERFACE target
 add_library(rabitq INTERFACE)
+add_library(rabitq::rabitq ALIAS rabitq)
 
 target_include_directories(rabitq INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
-target_include_directories(rabitq INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/third/simde)
-target_include_directories(rabitq INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/third/Eigen)
+target_include_directories(rabitq SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/third/simde)
+target_include_directories(rabitq SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/third/Eigen)
 
 # Ensure downstreams use C++17
 target_compile_features(rabitq INTERFACE cxx_std_17)
