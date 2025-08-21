@@ -9,7 +9,7 @@
 #include <new>
 #include <type_traits>
 
-#include "utils/tools.hpp"
+#include "include/tools.hpp"
 
 namespace rabitqlib::memory {
 #define PORTABLE_ALIGN32 __attribute__((aligned(32)))

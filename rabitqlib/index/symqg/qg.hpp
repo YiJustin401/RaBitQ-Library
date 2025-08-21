@@ -13,19 +13,19 @@
 #include <vector>
 
 #include "defines.hpp"
-#include "fastscan/fastscan.hpp"
-#include "index/estimator.hpp"
-#include "index/query.hpp"
-#include "quantization/data_layout.hpp"
-#include "quantization/rabitq.hpp"
-#include "utils/array.hpp"
-#include "utils/buffer.hpp"
-#include "utils/hashset.hpp"
-#include "utils/io.hpp"
-#include "utils/memory.hpp"
-#include "utils/rotator.hpp"
-#include "utils/space.hpp"
-#include "utils/visited_pool.hpp"
+#include "include/fastscan.hpp"
+#include "include/estimator.hpp"
+#include "include/query.hpp"
+#include "include/data_layout.hpp"
+#include "include/rabitq.hpp"
+#include "include/array.hpp"
+#include "include/buffer.hpp"
+#include "include/hashset.hpp"
+#include "include/io.hpp"
+#include "include/memory.hpp"
+#include "include/rotator.hpp"
+#include "include/space.hpp"
+#include "include/visited_pool.hpp"
 
 namespace rabitqlib::symqg {
 

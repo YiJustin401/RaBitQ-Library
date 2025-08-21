@@ -2,7 +2,7 @@
 #include <deque>
 #include <mutex>
 
-#include "utils/hashset.hpp"
+#include "include/hashset.hpp"
 
 namespace rabitqlib {
 class VisitedListPool {

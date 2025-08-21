@@ -5,9 +5,9 @@
 #include <numeric>
 #include <utility>
 
-#include "index/lut.hpp"
-#include "quantization/rabitq.hpp"
-#include "utils/space.hpp"
+#include "include/lut.hpp"
+#include "include/rabitq.hpp"
+#include "include/space.hpp"
 
 namespace rabitqlib {
 /**

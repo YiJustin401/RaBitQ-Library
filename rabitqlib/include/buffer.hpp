@@ -4,7 +4,7 @@
 #include <vector>
 
 #include "defines.hpp"
-#include "utils/memory.hpp"
+#include "include/memory.hpp"
 
 namespace rabitqlib::buffer {
 /**

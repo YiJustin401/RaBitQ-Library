@@ -4,9 +4,9 @@
 #include <cstdint>
 #include <vector>
 
-#include "fastscan/fastscan.hpp"
-#include "fastscan/highacc_fastscan.hpp"
-#include "utils/space.hpp"
+#include "include/fastscan.hpp"
+#include "include/highacc_fastscan.hpp"
+#include "include/space.hpp"
 
 namespace rabitqlib {
 

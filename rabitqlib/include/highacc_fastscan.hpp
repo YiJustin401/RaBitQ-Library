@@ -1,7 +1,7 @@
 #pragma once
 
 #include <simde/x86/avx512.h>
-#include "../utils/simde-utils.hpp"
+#include "include/simde-utils.hpp"
 
 #include <cassert>
 #include <cstdint>

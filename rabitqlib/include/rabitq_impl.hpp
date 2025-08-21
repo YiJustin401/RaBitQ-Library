@@ -9,9 +9,9 @@
 #include <vector>
 
 #include "defines.hpp"
-#include "fastscan/fastscan.hpp"
-#include "quantization/pack_excode.hpp"
-#include "utils/space.hpp"
+#include "include/fastscan.hpp"
+#include "include/pack_excode.hpp"
+#include "include/space.hpp"
 
 namespace rabitqlib::quant::rabitq_impl {
 

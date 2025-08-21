@@ -3,8 +3,8 @@
 #include "defines.hpp"
 #include "index/symqg/qg.hpp"
 #include "index/symqg/qg_builder.hpp"
-#include "utils/io.hpp"
-#include "utils/stopw.hpp"
+#include "include/io.hpp"
+#include "include/stopw.hpp"
 
 using PID = rabitqlib::PID;
 using index_type = rabitqlib::symqg::QuantizedGraph<float>;

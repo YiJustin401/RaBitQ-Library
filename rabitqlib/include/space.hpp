@@ -12,7 +12,7 @@
 #include <type_traits>
 
 #include "defines.hpp"
-#include "utils/tools.hpp"
+#include "include/tools.hpp"
 
 namespace rabitqlib {
 namespace scalar_impl {

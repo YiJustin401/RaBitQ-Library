@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-#include "fastscan/fastscan.hpp"
+#include "include/fastscan.hpp"
 
 namespace rabitqlib {
 template <typename T>

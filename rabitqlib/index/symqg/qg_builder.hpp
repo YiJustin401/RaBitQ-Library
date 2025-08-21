@@ -11,8 +11,8 @@
 
 #include "defines.hpp"
 #include "index/symqg/qg.hpp"
-#include "utils/hashset.hpp"
-#include "utils/tools.hpp"
+#include "include/hashset.hpp"
+#include "include/tools.hpp"
 
 namespace rabitqlib::symqg {
 constexpr size_t kMaxBsIter = 5;  // max iter for binary search of pruning bar

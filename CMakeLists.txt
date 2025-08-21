@@ -26,10 +26,11 @@ SET(CMAKE_CXX_FLAGS  "-Wall -Ofast -Wextra -lrt -march=native -fpic -fopenmp -ft
 SET(CMAKE_C_FLAGS  "-Wall -Ofast -Wextra -lrt -march=native -fpic -fopenmp -ftree-vectorize -fexceptions -w")
 
 add_subdirectory(sample)
+add_subdirectory(rabitqlib)
 
 option(BUILD_TESTS "Build tests" ON)
 
-if (BUILD_TESTS)
-    add_subdirectory(contrib)
-    add_subdirectory(tests)
-endif()
+# if (BUILD_TESTS)
+#     add_subdirectory(contrib)
+#     add_subdirectory(tests)
+# endif()

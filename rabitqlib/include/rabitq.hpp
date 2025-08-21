@@ -7,9 +7,9 @@
 #include <vector>
 
 #include "defines.hpp"
-#include "fastscan/fastscan.hpp"
-#include "quantization/data_layout.hpp"
-#include "quantization/rabitq_impl.hpp"
+#include "include/fastscan.hpp"
+#include "include/data_layout.hpp"
+#include "include/rabitq_impl.hpp"
 
 namespace rabitqlib::quant {
 

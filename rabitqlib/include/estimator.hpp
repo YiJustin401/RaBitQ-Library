@@ -3,12 +3,12 @@
 #include <cstdint>
 
 #include "defines.hpp"
-#include "fastscan/fastscan.hpp"
-#include "fastscan/highacc_fastscan.hpp"
-#include "index/query.hpp"
-#include "quantization/data_layout.hpp"
-#include "utils/space.hpp"
-#include "utils/warmup_space.hpp"
+#include "include/fastscan.hpp"
+#include "include/highacc_fastscan.hpp"
+#include "include/query.hpp"
+#include "include/data_layout.hpp"
+#include "include/space.hpp"
+#include "include/warmup_space.hpp"
 
 namespace rabitqlib {
 /**
